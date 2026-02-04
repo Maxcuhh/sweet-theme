@@ -1,0 +1,27 @@
+/**
+ * @name /ᐠ - ˕ -マ
+ * @author Chyaru__
+ * @version 1.0.0
+ * @description '' it takes the truth to fool me ,,
+ */
+
+ /*
+⡤⠒⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⢀⡤⠒⢤
+⢣⡀⠀⠉⠲⢤⣀⡀⠀⠀⠀⠀⠀⠀⢀⣀⡤⠖⠉⠀⢀⡜
+⢸⡉⠒⠄⠀⠀⠀⢉⡙⢢⠀⠀⡔⢋⡉⠀⠀⠀⠠⠒⢉⡇
+⠀⠉⢖⠒⠀⠀⠀⣇⠀⣸⠀⠀⣇⠀⣸⠀⠀⠀⠒⡲⠉⠀
+⠀⠀⠀⠉⠙⠫⠤⠚⠉⠀⠀⠀⠀⠉⠓⠤⠝⠋⠉
+*/   
+
+
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/core/variables.css");
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/core/layout.css");
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/core/messages.css");
+/* Modules <3 */
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/servers.css");
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/buttons.css");
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/extra/pastel-scrollbar.css");
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/extra/rounded-avatars.css");
+/* Optional cute stuff */
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/badges.css");
+@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/mentions.css");
