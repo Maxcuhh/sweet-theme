@@ -40,11 +40,16 @@
     /* Text */
     --text-normal: #4a2c3a;
     --text-muted: #8b5e70;
+
+    /* Hover */
+    --normal: #ff8fb8;
+    --hover: #ff5c9e;
 }
 
 /* Global font */
 * {
     font-family: "Nunito", system-ui, sans-serif;
+    background-color: var(--background-primary);
 }
 
 .avatar-2e8lTP {
@@ -124,7 +129,7 @@ main[role="main"] {
 }
 
 .mentioned-Tre-dv {
-    background-color: #ffd9ea !important;
+    background-color: var(--background-mentioned);
     border-radius: 6px;
     padding: 2px 4px;
 }
@@ -135,10 +140,10 @@ main[role="main"] {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #79f7b8;
+    background: var(--normal);
     border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #8cda79;
+    background: var(--hover);
 }
