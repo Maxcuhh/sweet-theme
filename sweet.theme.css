@@ -14,14 +14,131 @@
 */   
 
 
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/core/variables.css");
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/core/layout.css");
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/core/messages.css");
-/* Modules <3 */
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/servers.css");
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/buttons.css");
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/extra/pastel-scrollbar.css");
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/extra/rounded-avatars.css");
-/* Optional cute stuff */
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/badges.css");
-@import url("https://raw.githubusercontent.com/Maxcuhh/Cutesy-theme/refs/heads/main/modules/mentions.css");
+
+
+
+
+
+.theme-dark {
+    /* App backgrounds */
+    --background-primary: #ffeaf2;
+    --background-secondary: #ffdce8;
+
+    --background-tertiary: #ffd6e8;
+
+    /* Messages (Discord-controlled variables) */
+    --background-message-hover: #ffe6f0;
+    --background-message-hover-alt: #ffe6f0;
+
+    /* Mentions */
+    --background-mentioned: #ffd9ea;
+    --background-mentioned-hover: #ffd9ea;
+
+    /* Accent */
+    --brand-experiment: #ff8fb8;
+
+    /* Text */
+    --text-normal: #4a2c3a;
+    --text-muted: #8b5e70;
+}
+
+/* Global font */
+* {
+    font-family: "Nunito", system-ui, sans-serif;
+}
+
+.avatar-2e8lTP {
+    border-radius: 50% !important;
+}
+
+.roleBadge-1BqSX_ {
+    background: #ff9fc4;
+    color: white;
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 11px;
+}
+
+button {
+    border-radius: 999px !important;
+}
+
+button[class*="lookFilled"] {
+    background-color: var(--brand-experiment) !important;
+    color: white !important;
+}
+
+.mentioned-Tre-dv {
+    background-color: var(--background-mentioned) !important;
+    border-radius: 6px;
+    padding: 2px 4px;
+}
+
+
+.guilds-2JjMmN {
+    background-color: var(--background-secondary);
+}
+
+.wrapper-2PSQCG {
+    border-radius: 50%;
+}
+
+html,
+body,
+#app-mount,
+.appMount-2yBXZl,
+.app-2CXKsg {
+    background-color: var(--background-primary) !important;
+}
+
+/* Main chat */
+.chat-2ZfjoI,
+main[role="main"] {
+    background-color: var(--background-primary) !important;
+}
+
+/* Sidebar + DM list */
+.sidebar-1tnWFu,
+.privateChannels-oVe7HL {
+    background-color: var(--background-secondary) !important;
+}
+
+/* Remove dark container layers */
+.container-1NXEtd,
+.base-2jDfDU,
+.content-1jQy2l {
+    background: transparent !important;
+}
+
+/* Soft spacing */
+.chat-2ZfjoI,
+.sidebar-1tnWFu {
+    margin: 6px;
+    border-radius: 14px;
+}
+
+/* Kill dark dividers */
+.divider-2rZFJK,
+.content-1jQy2l::before {
+    display: none !important;
+}
+
+.mentioned-Tre-dv {
+    background-color: #ffd9ea !important;
+    border-radius: 6px;
+    padding: 2px 4px;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #79f7b8;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8cda79;
+}
